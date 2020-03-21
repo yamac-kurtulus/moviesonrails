@@ -1,3 +1,30 @@
-# moviesonrails
+# frontend
 
-A ruby project where users can register and follow movies based on their genre, name and actors. It uses a combination of the [movie lens small dataset](https://grouplens.org/datasets/movielens/) (~9000 movies) tailored to fit this project for movie selection  (so that we would have a selection of popular movies) and [OpenMovieDatabase](www.omdbapi.com) for movie information. Since the time is limited, and OMDB has a limit of 1000 requests/day, A smaller dataset of movielens had to be used.
+> Front-end for movies on rails app
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
